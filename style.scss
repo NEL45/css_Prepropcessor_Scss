@@ -1,0 +1,88 @@
+$spacing: 8px;
+$doubleSpacing: 16px;
+$colorText: white;
+
+
+@mixin ring ($strongAndColor, $width) {
+    border-radius: 50%;
+    border: $strongAndColor solid;
+    width: $width;
+    height: $width;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: orangered;
+}
+
+h1 {
+    color: white;
+    padding: $spacing;
+    margin-right: $doubleSpacing;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: $spacing;
+}
+
+.body {
+    height: 650px;
+}
+
+footer {
+    background-color: orangered;
+    color: white;
+}
+
+h2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.myPreciousRing {
+    display: flex;
+    justify-content: center;
+    padding: $doubleSpacing*2;
+}
+
+.ring1row1 {
+    @include ring(6px orangered, 50px);
+    margin-right: $doubleSpacing*2;
+}
+
+.ring2row1 {
+    @include ring(6px orangered, 50px);
+    margin-right: $doubleSpacing*2;
+}
+
+.theOneRingRing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.ring1row2 {
+    @include ring(16px gold, 200px );
+    margin-right: $doubleSpacing*2;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+@for $i from 1 through 6 {
+  .loopRing#{$i} {
+    @include ring($i * 6px black,$i * 50px);
+    margin-right: -((35px * ($i/2)));
+  }
+}

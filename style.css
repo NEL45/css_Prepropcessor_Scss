@@ -1,0 +1,132 @@
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: orangered;
+  }
+  
+  nav-titles {
+    text-align: white;
+    padding: 8px;
+    margin-right: 16px;
+  }
+  
+  h1 {
+    color: white;
+    padding: 8px;
+    margin-right: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+  }
+  
+  .body {
+    height: 650px;
+  }
+  
+  footer {
+    background-color: orangered;
+    color: white;
+  }
+  
+  h2 {
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .myPreciousRing {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+  }
+  
+  .ring1row1 {
+    border-radius: 50%;
+    border: 6px orangered solid;
+    width: 50px;
+    height: 50px;
+    margin-right: 32px;
+  }
+  
+  .ring2row1 {
+    border-radius: 50%;
+    border: 6px orangered solid;
+    width: 50px;
+    height: 50px;
+    margin-right: 32px;
+  }
+  
+  .theOneRingRing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ring1row2 {
+    border-radius: 50%;
+    border: 16px gold solid;
+    width: 200px;
+    height: 200px;
+    margin-right: 32px;
+  }
+  
+  h3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .foot {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .loopRing1 {
+    border-radius: 50%;
+    border: 6px black solid;
+    width: 50px;
+    height: 50px;
+    margin-right: -17.5px;
+  }
+  
+  .loopRing2 {
+    border-radius: 50%;
+    border: 12px black solid;
+    width: 100px;
+    height: 100px;
+    margin-right: -35px;
+  }
+  
+  .loopRing3 {
+    border-radius: 50%;
+    border: 18px black solid;
+    width: 150px;
+    height: 150px;
+    margin-right: -52.5px;
+  }
+  
+  .loopRing4 {
+    border-radius: 50%;
+    border: 24px black solid;
+    width: 200px;
+    height: 200px;
+    margin-right: -70px;
+  }
+  
+  .loopRing5 {
+    border-radius: 50%;
+    border: 30px black solid;
+    width: 250px;
+    height: 250px;
+    margin-right: -87.5px;
+  }
+  
+  .loopRing6 {
+    border-radius: 50%;
+    border: 36px black solid;
+    width: 300px;
+    height: 300px;
+    margin-right: -105px;
+  }
